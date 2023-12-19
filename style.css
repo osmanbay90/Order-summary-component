@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     position: relative;
+     bottom: 100px; 
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: ;
+    margin: 0;  
+    box-sizing: border-box;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.container {
+    background-color: white;
+    width: 350px;
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
+.cover > img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.content > h1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content > p {
+    text-align: center;
+    padding: 1.5em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.price-plan {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    border-radius: 7px;
+    padding: 0.8em 0em;
+    margin-left: 2.5rem;
+    bottom: 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.price-plan > img {
+    transform: scale(0.7);
+}
+
+.par {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    font-weight: 700;
+
+}
+
+.numb {
+    position: absolute;
+    bottom: 4px;
+    left: 65px;
+    font-size: 0.87rem;
+    color: rgb(104, 100, 100);
+}
+
+.price-plan > a {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #1d4ed8;
+}
+
+.price-plan > a:hover {
+    color: rgb(118, 15, 244);
+}
+
+.payment {
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+
+.payment > button {
+    display: block;
+    padding: 0.8em 6em;
+    background-color: #113085;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px -2px rgba(0,0,0.1);
+}
+
+.payment > a {
+    color: rgb(94, 92, 92);
+    margin-left: 5.5em;
+    position: absolute;
+    bottom: -50px;
+    text-decoration: none;
+}
+
+.payment > button:hover {
+    background-color: rgb(118, 15, 244);
+}
+
+.payment > a:hover {
+    color: black;
+}
+
+@media  screen and (max-width: 600px) {
+    .container {
+        margin-left: 2em;
+    }
+
+}
